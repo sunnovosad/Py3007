@@ -8,7 +8,8 @@ f = int(input('Введите F: '))
 
 result = a + b - f / a + f * a * a - (a + b)
 #result1 = a + b - f / a + f * a ** 2 - (a + b)
-print ('Результат:', result)
+print('Результат:', result)
+print()
 #print ('Результат:', result1)
 
 
