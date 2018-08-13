@@ -11,12 +11,13 @@ import datetime
 #print("Current date and time: ", datetime.datetime.now())
 #a = datetime.datetime.today().year
 #b = datetime.datetime.now().year 
-#c =  datetime.date.today().year
+#c = datetime.date.today().year
 
 current_year = datetime.date.today().year
 birth_year = int(input('Ваша дата рождения (укажите год): '))
 your_age =  current_year - birth_year
-print('Вам', your_age, 'лет/год(а).')
+print('Вам', your_age, 'лет/год(а)')
+
 
 
 
